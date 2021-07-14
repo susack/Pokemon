@@ -1,27 +1,32 @@
-# PokemonAng12
+# Pokemon Local Storage Proto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+## Node Installed
+Make sure node is installed
+https://nodejs.org/en/
+
+## Angular Installed
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0. Older/new versions should be fine
+run: 'npm install -g @angular/cli'
+
+## Run NPM Install on Project
+Goto under level directory where packages.json file resides, cd pokemonAng12
+and run: 'npm install'
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+From same directory run: 'ng serve' for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Launch in browser
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+http://localhost:4200
 
-## Build
+Assumptions made: (due to 4hr time limits)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Used Ang Material auto complete popdown to search all pokemon names. Just start typing in the names
 
-## Running unit tests
+Favorites are make by clicking on checkbox next to item in the Selected Pokemon List and then clicking on Set Favorite button to save items to local storage. This could be done automatically each time a user selects/deselects an pokemon favorite.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The Clear Local Storage button is just there for convenience and was used as part of my testing. 
 
-## Running end-to-end tests
+Did not flesh out detail page/view for each pokemon image selected. All data on each pokemon is stored in local storage for this name/id poken search
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
