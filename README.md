@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 run: 'npm install -g @angular/cli'
 
 ## Run NPM Install on Project
-Goto under level directory where packages.json file resides, cd pokemonAng12
+Goto under level directory where packages.json file resides (base directory)
 and run: 'npm install'
 
 ## Development server
@@ -30,5 +30,5 @@ The Clear Local Storage button is just there for convenience and was used as par
 
 Did not flesh out detail page/view for each pokemon image selected. All data on each pokemon from the API is stored in local storage for this name/id poken search
 
-Any questions please email me susack@optonline.net
+Any questions please email me susack@optonline.net TY!
 
