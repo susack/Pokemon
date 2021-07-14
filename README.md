@@ -24,7 +24,7 @@ Use Cases:
 - user enters a letter to start the auto complete function pop down
 - On selection of an item from this drop down auto complete list it will be added to the Selected Pokemon list below
 - User can favorite any item that is added to the list by checking the favorite checkbox and hitting the 'Set Favorites' button. These favorited items will be the only ones saved to locall storage and rendered on broswer refresh/new session. 
-- You can add to the favorite list by clicking on additional items and clicking 'Set Favorites' button
+- You can add or remove from the favorite list by clicking on additional item's checkbox (enable/disable) and clicking 'Set Favorites' button
 - User can opt to remove all local storage by clicking on the 'Clear Local Storage' button. On browser refresh/new session there will nothing presented in list
 - Images are clickable but will not render page views/content..  JS alert is a placeholder.
 
